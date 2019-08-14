@@ -2,7 +2,8 @@
 	<?php
 		function getMediaUrl() {
 			$url=Mage::getBaseUrl('media');
-			return substr($url,strpos($url,'media/'));
+			return $url;
+			//return substr($url,strpos($url,'media/'));
 		}
         $collection = Mage::getModel('background/background')->getCollection()->addFieldToFilter("status",array("eq"=>1))->addFieldToFilter("filename",array("neq"=>""));
         $basePath=getMediaUrl();
