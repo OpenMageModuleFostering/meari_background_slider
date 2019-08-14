@@ -1,0 +1,18 @@
+<ul id="meari-background-slideshow">
+	<?php
+		function getMediaUrl() {
+			$url=Mage::getBaseUrl('media');
+			return substr($url,strpos($url,'media/'));
+		}
+        $collection = Mage::getModel('background/background')->getCollection()->addFieldToFilter("status",array("eq"=>1))->addFieldToFilter("filename",array("neq"=>""));
+        $basePath=getMediaUrl();
+        $imgArr=array();
+		$idx=0;
+		$timeDelay=6; //seconds
+		$cnt=count($collection);
+        foreach ($collection as $image) {
+            echo '<li><span style="background-image:url('.$basePath.$image->getFilename().'); -webkit-animation: imageAnimation '.($timeDelay*$cnt).'s linear infinite 0s; -moz-animation: imageAnimation '.($timeDelay*$cnt).'s linear infinite 0s; -o-animation: imageAnimation '.($timeDelay*$cnt).'s linear infinite 0s; -ms-animation: imageAnimation '.($timeDelay*$cnt).'s linear infinite 0s; animation: imageAnimation '.($timeDelay*$cnt).'s linear infinite 0s; -webkit-animation-delay: '.($timeDelay*$idx).'s; -moz-animation-delay: '.($timeDelay*$idx).'s; -o-animation-delay: '.($timeDelay*$idx).'s; -ms-animation-delay: '.($timeDelay*$idx).'s; animation-delay: '.($timeDelay*$idx).'s;"></span></li>';
+			$idx++;
+        }
+    ?>
+</ul>

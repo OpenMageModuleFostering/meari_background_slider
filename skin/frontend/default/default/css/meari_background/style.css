@@ -1,0 +1,5 @@
+.header { background: none !important; }
+.main-container { background: none !important; }
+.header-container { background: none !important; border: none !important; }
+.nav-container { background: none !important; }
+html { overflow-y:auto !important; }

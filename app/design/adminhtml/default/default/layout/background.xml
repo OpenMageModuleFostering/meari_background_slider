@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="1.0.0">
+    <background_adminhtml_background_index>
+        <reference name="content">
+            <block type="background/adminhtml_background" name="background" />
+        </reference>
+    </background_adminhtml_background_index>
+    <background_adminhtml_background_edit>
+		<reference name="head">
+			<action method="addCss"><stylesheet>css/meari_background/style.css</stylesheet></action>
+		</reference>
+    </background_adminhtml_background_edit>
+</layout>
