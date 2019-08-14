@@ -2,7 +2,7 @@
 <config>
     <modules>
         <MEARI_Background>
-            <version>1.1.0</version>
+            <version>1.1.1</version>
         </MEARI_Background>
     </modules>
     <frontend>

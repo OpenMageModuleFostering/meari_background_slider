@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MEARI_Background>
+            <active>true</active>
+            <codePool>local</codePool>
+        </MEARI_Background>
+    </modules>
+</config> 
