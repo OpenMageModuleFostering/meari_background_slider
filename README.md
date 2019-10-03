@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 This extension makes css background image slider using images uploaded by you on admin area.

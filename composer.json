@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Meari_Background_Slider",
+    "name": "openmage-module-fostering\/meari_background_slider",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension makes css background image slider using images uploaded by you on admin area.",
     "authors": [
