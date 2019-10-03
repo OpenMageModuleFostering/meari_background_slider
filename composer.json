@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Meari_Background_Slider",
+    "name": "OpenMageModuleFostering\/Meari_Background_Slider",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "This extension makes css background image slider using images uploaded by you on admin area.",
     "authors": [
-    {
-        "name": "Meari Inc.",
-        "email": "zSniper117@gmail.com"
-    }
-],
+        {
+            "name": "Meari Inc.",
+            "email": "zSniper117@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
